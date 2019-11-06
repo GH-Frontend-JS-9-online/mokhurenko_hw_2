@@ -1,0 +1,247 @@
+button, input[type="submit"], input[type="reset"] {
+    border-radius: 15px;
+    background-color: #ffffff;
+	color: #3695ff;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Lato - Black";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+}
+
+section h2 {
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 60px;
+    line-height: 35.12px;
+}
+
+.cookies {
+    background-color: #194277;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 15px 0;
+}
+
+.accept-cookies {
+    width: 112px;
+    height: 30px;
+    margin-left: 50px;
+    color: #194277;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.36px;
+}
+
+.main header {
+    padding-top: 30px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.menu-button {
+    text-align: right;
+    filter: invert(1);
+}
+
+.menu-button img {
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome {
+    background-color:#3695ff;
+    background-image: linear-gradient(45deg, #3695ff 20%, #469dff 20% 40%, #4098ff 40% 60%, #3c89fe 60% 80%, #357afd 80%);
+    background-repeat: no-repeat;
+}
+
+#welcome h5 {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 0;
+}
+
+.welcome-content {
+    height: 4em;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hire-me {
+    width: 204px;
+    height: 55px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    color: #3695ff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin-top: 75px;
+    margin-bottom: 65px;
+}
+
+.down-arrow {
+    background-color: transparent;
+	filter: invert(1);
+	border: none;
+	padding: 0;
+	cursor: pointer;
+    outline: inherit;
+    margin: 25px auto;
+    width: 19px;
+    height: 32px;
+}
+
+#about {
+    color:#5a5a5a;
+    font-size: 16px;
+    padding: 60px 0;
+    color: #5a5a5a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+#expert {
+    background-color: #f1f8ff;
+}
+
+.expert-in-card {
+    width: 355px;
+    padding-bottom: 100px;
+}
+
+.elips-shadow img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px 
+    rgba(255,255,255,0.1),
+     0 0 0 16px rgba(255,255,255,0.1); 
+}
+
+.expert-in-card h4{
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.expert-in-icon {
+    border: 1px grey solid;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.expert-in-description {
+    height: 5em;
+    overflow: hidden;
+    color: #5a5a5a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.expert-in-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.works-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.works-card {
+    width: 359px;
+    height: 269px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f4f4f4;
+    background-color: #f4f4f4;
+}
+
+.stick-bottom {
+    margin-bottom: 50px;
+    align-items: flex-end;
+}
+
+#clients {
+    background-color: #f1f8ff;
+    margin-top: 100px;
+    padding-bottom: 90px;
+}
+
+.clients-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.clients-container img {
+    padding: 0 10px 20px 10px;
+    filter: opacity(20%) brightness(0%); 
+}
+
+.footer {
+    background-color:#3695ff;
+    background-image: linear-gradient(45deg, #3695ff 20%, #469dff 20% 40%, #4098ff 40% 60%, #3c89fe 60% 80%, #357afd 80%);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer button{
+    margin: 60px;
+}
